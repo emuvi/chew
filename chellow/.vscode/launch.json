@@ -6,12 +6,14 @@
     "configurations": [
         {
             "name": "chellow",
-            "type": "lldb",
+            "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/Debug/chellow.exe",
             "args": [],
+            "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
-            "stopOnEntry": false
+            "environment": [],
+            "console": "integratedTerminal"
         }
     ]
 }
