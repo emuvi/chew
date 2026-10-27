@@ -6,14 +6,12 @@
     "configurations": [
         {
             "name": "run",
-            "type": "cppvsdbg",
+            "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Debug/${workspaceFolderBasename}.exe",
+            "program": "${workspaceFolder}/build/${workspaceFolderBasename}.exe",
             "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "console": "integratedTerminal"
+            "stopOnEntry": false,
+            "cwd": "${workspaceFolder}"
         }
     ]
 }
